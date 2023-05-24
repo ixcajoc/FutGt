@@ -3,11 +3,8 @@ html{scroll-behavior: smooth;}
 body{
 	margin: 0;
 	font-family: sans-serif,serif;
-	background-image: url(fondo.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 100vh;
+	
+/*	height: 100vh;*/
 }
 img{
 	border-radius: 100%;
@@ -30,14 +27,29 @@ a:hover{
 .contenedor-logo{
 	text-align: center;
 }
-.botones{
-	margin-bottom: 5vh;
-}
 main{
+	background-image: url(fondo.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	border:solid;
+}
+section{
+	padding: 4rem 0;
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+}
+footer{
+	padding: 3rem 0;
+	background-color: #242525;
+	color: white;
+	text-align: center;
 }
